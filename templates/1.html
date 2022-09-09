@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log in form</title>
+    <style>
+        body {
+            background-color: red;
+        }
+
+        .float-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .child {
+            margin: 50vh auto 0;
+            transform: translateY(-50%);
+            border: 2px solid black;
+            padding: 20px;
+            background-color: white;
+        }
+
+        button {
+            background-color: green;
+            border: 1px solid white;
+            padding: 5px;
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            color: white;
+            background-color: greenyellow;
+        }
+
+        input {
+            border-radius: 5px;
+        }
+
+        input:hover {
+            border: 2px solid lightskyblue;
+        }
+    </style>
+</head>
+<body>
+
+<div class="parent">
+    <div class="child">
+        <h1 align="center" class="color-white">Log in</h1>
+        <form method="post">
+            <div>
+                <div class="margin_input">
+                    <input type="text" placeholder="Username...">
+                </div>
+                <br>
+                <div class="margin_input">
+                    <input type="text" placeholder="Password...">
+                </div>
+                <br>
+            </div>
+            <div class="float-center">
+                <button type="submit">Sign in</button>
+            </div>
+
+        </form>
+    </div>
+</div>
+</body>
+</html>
